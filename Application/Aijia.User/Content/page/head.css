@@ -1,0 +1,392 @@
+@charset "utf-8";
+html,body {
+	width: 100%;
+}
+.wrap {
+	position: relative;
+	width: 100%;
+}
+/*头部开始*/
+.header {
+	width: 100%;
+	height: 30px;
+	border-bottom: 1px solid #dfdfdf;
+	line-height: 30px;
+	color: #555;
+	font-size: 12px;
+}
+.header-con {
+	width: 1200px;
+	margin: 0 auto;
+}
+.h-mobile-main {
+	position: relative;
+	width: 446px;
+	z-index: 1;
+}
+.h-mobile {
+	float: left;
+	width: 94px;
+	height: 30px;
+	cursor: pointer;
+}
+.h-mobile:hover {
+	display: block;
+	width: 92px;
+	height: 29px;
+	border: 1px solid #dfdfdf;
+	border-bottom-color: #fff;
+	background: #fff;
+}
+.h-mobile strong {
+	float: left;
+	width: 24px;
+	height: 30px;
+}
+.h-mobile-picture {
+	background: url("../images/h_mobile.png") 9px center no-repeat;
+}
+.h-mobile-pic {
+	display: none;
+	background: url("../images/h_mobile-hover.png") 9px center no-repeat;
+}
+.h-mobile em {
+	float: left;
+	width: 67px;
+}
+.h-mobile span {
+	float: left;
+	width: 1px;
+}
+/*鼠标移入“移动客户端”展现出来的二维码内容的开始*/
+.qr-code {
+	display: none;
+	position: relative;
+	left: 0;
+	top: 31px;
+	width: 242px;
+	height: 113px;
+	border-left: 1px solid #dfdfdf;
+	border-bottom: 1px solid #dfdfdf;
+	border-right: 1px solid #dfdfdf;
+	background-color: #fff;
+}
+.h-mobile-cut {
+	position: absolute;
+	top: 2px;
+	left: 7px;
+	width: 16px;
+	height: 36px;
+}
+.h-mobile-code {
+	position: absolute;
+	top: 16px;
+	left: 24px;
+	width: 84px;
+	height: 84px;
+}
+.ios-picturn {
+	position: absolute;
+	top: 32px;
+	left: 121px;
+	width: 103px;
+	height: 29px;
+}
+.androld-picturn {
+	position: absolute;
+	top: 68px;
+	left: 121px;
+	width: 103px;
+	height: 29px;
+}
+.qr-code-con {
+	display: block;
+	margin: 7px 0 0 123px;
+	color: #666;
+}
+/*鼠标移入“移动客户端”展现出来的二维码内容的结束*/
+.h-login {
+	float: left;
+	width: 352px;
+}
+.h-login span {
+	margin-left: 10px;
+}
+.h-login a {
+	color: #555;
+}
+.h-login .h-btn-color {
+	color: #fe0000;
+}
+.h-edition {
+	float: left;
+	width: 61px;
+	height: 21px;
+	margin: 4px 160px 0 0;
+	border: 1px solid #fe0000;
+	line-height: 21px;
+	color: #fe0000;
+	text-align: center;
+}
+.h-edition:hover {
+	background-color: #fe0000;
+	color: #fff;
+	cursor: pointer;
+}
+.h-nav {
+	float: left;
+	width: 379px;
+}
+.h-nav a {
+	float: left;
+	color: #555;
+}
+.h-nav-order {
+	width: 97px;
+}
+.h-nav-order em {
+	float: left;
+	width: 34px;
+	height: 30px;
+	background: url("../images/h_nav_order.png") 11px center no-repeat;
+}
+.h-nav-cart strong,
+.h-nav-order strong {
+	float: left;
+}
+.h-nav-collection span,
+.h-nav-home span,
+.h-nav-cart span,
+.h-nav-order span {
+	float: right;
+	width: 1px;
+}
+.h-nav-cart {
+	width: 78px;
+}
+.h-nav-cart em {
+	float: left;
+	width: 34px;
+	height: 30px;
+	background: url("../images/h_nav_cart.png") 11px center no-repeat;
+}
+.h-nav-home {
+	width: 66px;
+}
+.h-nav-home strong {
+	float: left;
+	width: 65px;
+	text-align: center;
+}
+.h-nav-collection {
+	width: 72px;
+}
+.h-nav-collection strong {
+	float: left;
+	width: 71px;
+	text-align: center;
+}
+.h-telephone {
+	float: right;
+	color: #fe0000;
+}
+
+/*头部结束*/
+/*尾部开始*/
+.footer {
+	width: 100%;
+	background-color: #363636;
+}
+.footer-list {
+	width: 1200px;
+	height: 415px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #ccc;
+}
+.footer-con {
+	height: 182px;
+	padding-top: 40px;
+}
+.footer-con a {
+	color: #ccc;
+}
+.f-link a:hover,
+.f-characteristic-list a:hover,
+.f-service-list a:hover,
+.f-guide-list a:hover,
+.footer-con span:hover {
+	text-decoration: underline;
+}
+.f-guide {
+	float: left;
+	width: 168px;
+}
+.f-characteristic img,
+.f-service img,
+.f-guide img {
+	display: block;
+	float: left;
+	width: 30px;
+	height: 31px;
+	margin-right: 10px;
+}
+.f-characteristic span,
+.f-service span,
+.f-guide span {
+	float: left;
+	line-height: 31px;
+	font-size: 14px;
+}
+.f-service {
+	float: left;
+	width: 178px;
+}
+.f-characteristic {
+	float: left;
+	width: 187px;
+}
+.f-guide-list {
+	float: left;
+	width: 128px;
+	height: 152px;
+	margin-left: 40px;
+	padding-top: 4px;
+}
+.f-characteristic-list,
+.f-service-list li,
+.f-guide-list li {
+	line-height: 24px;
+}
+.f-service-list {
+	float: left;
+	width: 138px;
+	height: 152px;
+	margin-left: 40px;
+	padding-top: 4px;
+}
+.f-characteristic-list {
+	float: left;
+	width: 147px;
+	height: 152px;
+	margin-left: 40px;
+	padding-top: 4px;
+}
+.f-mobile-client {
+	position: relative;
+	float: left;
+	width: 105px;
+	margin-right: 77px;
+}
+.f-mobile-client dt {
+	overflow: hidden;
+	width: 95px;
+	height: 95px;
+	margin: 31px 5px 0;
+}
+.f-mobile-client dt img {
+	display: block;
+	width: 95px;
+	height: 95px;
+}
+.f-mobile-bgc {
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 2px;
+	height: 171px;
+}
+.f-mobile-client dd {
+	width: 105px;
+}
+.f-mobile-c {
+	position: absolute;
+	top: 8px; 
+	left: 18px;
+	font-size: 14px;
+}
+.f-mobile-surp {
+	position: absolute;
+	top: 137px; 
+	left: 0;
+	font-size: 12px;
+	color: #9b9b9b;
+}
+.f-brief {
+	float: left;
+	position: relative;
+	width: 300px;
+	height: 171px;
+	border-left: 2px solid #434343;
+	background: url("../images/f_china_map.png") 55px 24px no-repeat;
+	font-size: 14px;
+}
+.f-brief p {
+	margin-left: 65px;
+	line-height: 24px;
+	font-size: 14px;
+}
+.f-brief .f-brief-color {
+	margin-top: 24px;
+	font-size: 16px;
+	color: #e70000;
+}
+.f-friend-link {
+	overflow: hidden;
+	width: 1200px;
+	height: 34px;
+	padding-top: 13px;
+	border-top: 1px solid #434343;
+	border-bottom: 1px solid #434343;
+	line-height: 18px;
+	color: #ccc;
+	font-size: 12px;
+}
+.f-link {
+	float: left;
+	width: 1140px;
+}
+.f-friend-link a {
+	color: #ccc;
+	margin-right: 13px;
+}
+.f-link-more {
+	float: right;
+	cursor: pointer;
+}
+.f-link-more span {
+	display: block;
+}
+.f-link-more .f-link-show {
+	display: none;
+}
+.f-about-us {
+	padding: 11px 0 0 272px;
+}
+.f-about-us li {
+	float: left;
+}
+.f-about-us li a {
+	margin: 0 10px 0 8px;
+	color: #ccc;
+}
+.f-about-us li a:hover {
+	text-decoration: underline;
+}
+.f-website {
+	padding: 18px 0 0 357px;
+}
+.f-website span {
+	margin-right: 19px;
+}
+.f-code {
+	padding: 12px 0 0 414px;
+}
+.f-zip-code span,
+.f-code span {
+	margin-right: 12px;
+}
+.f-zip-code {
+	padding: 12px 0 0 435px;
+}
+/*尾部结束*/

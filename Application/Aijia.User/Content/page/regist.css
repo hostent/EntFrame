@@ -1,0 +1,226 @@
+::-webkit-input-placeholder {
+    font-size: 12px;
+    color: #c3c3c3;
+}
+
+::-moz-placeholder {
+    font-size: 12px;
+    color: #c3c3c3;
+}
+
+:-ms-input-placeholder {
+    font-size: 12px;
+    color: #c3c3c3;
+}
+
+#g-doc {
+    width: 100%;
+}
+
+.g-hd {
+    width: 1200px;
+    height: 63px;
+    margin: 0 auto;
+    padding-top: 36px;
+    border-bottom: solid 1px #dfdfdf;
+}
+
+.m-logo {
+    float: left;
+    width: 329px;
+    height: 53px;
+    border-right: solid 1px #dfdfdf;
+}
+
+    .m-logo .logo {
+        float: left;
+        width: 117px;
+    }
+
+.m-tt {
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+}
+
+.g-hd .m-tt {
+    float: left;
+    width: 850px;
+    line-height: 53px;
+    padding-left: 20px;
+}
+
+.m-log .z-err .err {
+    position: absolute;
+    top: 5px;
+    left: 13px;
+    width: 16px;
+    height: 16px;
+    background: url("../images/erro.png") no-repeat;
+}
+.m-log .z-err .none{
+    display: none;
+}
+.m-log .z-err .u-err {
+    display:block;
+    width: 100%;
+    height: 100%;
+    border: solid 1px #fe0000;
+    border-radius: 2px;
+    text-align: center;
+    color: #fe0000;
+    background-color: #ffebeb;
+}
+
+.g-bd {
+    width: 1200px;
+    margin: 0 auto 89px;
+    padding-top: 80px;
+}
+
+    .g-bd .m-ad {
+        float: left;
+        width: 559px;
+        height: 369px;
+        padding-left: 117px;
+        background: url("../../Content/images/lodingBG.png") no-repeat 55% 0;
+    }
+
+    .g-bd .m-log {
+        float: left;
+        width: 300px;
+        padding: 20px 36px 0;
+        border: solid 1px #dfdfdf;
+        border-radius: 2px;
+    }
+
+.m-log .z-err {
+    position: relative;
+    width: 297px;
+    height: 24px;
+    line-height: 24px;
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.m-log .m-ipt {
+    position: relative;
+    width: 297px;
+    height: 43px;
+    margin-top: 10px;
+    border: solid 1px #dfdfdf;
+    border-radius: 2px;
+}
+
+    .m-log .m-ipt .u-ipt {
+        width: 250px;
+        height: 43px;
+        line-height: 43px;
+        padding-left: 47px;
+    }
+
+    .m-log .m-ipt .abslu-1,
+    .m-log .m-ipt .abslu-2 {
+        position: absolute;
+        top: 8px;
+        left: 0;
+        width: 41px;
+        height: 28px;
+        border-right: solid 1px #dfdfdf;
+        background: url("../images/Log-icon.png") no-repeat;
+    }
+
+    .m-log .m-ipt .abslu-1 {
+        background-position: 11px 4px;
+    }
+
+    .m-log .m-ipt .abslu-2 {
+        background-position: -22px 5px;
+    }
+
+.m-log .m-ipt-wrap {
+    width: 299px;
+    height: 43px;
+    margin-top: 10px;
+}
+
+.m-log .m-verify-box {
+    float: left;
+    width: 123px;
+    height: 43px;
+    line-height: 43px;
+    margin-right: 22px;
+    padding-left: 6px;
+    border: solid 1px #dfdfdf;
+    border-radius: 2px;
+}
+
+.m-log .m-tips {
+    height: 29px;
+    line-height: 12px;
+    padding-top: 22px;
+    font-size: 12px;
+}
+
+.m-tips .check {
+    float: left;
+}
+
+.m-tips .check-2 {
+    float: left;
+    padding-left: 10px;
+    color: #666;
+}
+
+.m-tips .forget {
+    float: right;
+    color: #fe0000;
+}
+
+.m-log .u-btn {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #fe0000;
+    cursor: pointer;
+}
+
+.m-log .f-tac {
+    margin-top: 10px;
+    font-size: 12px;
+    text-align: center;
+    color: #333;
+}
+
+    .m-log .f-tac a {
+        color: #fe0000;
+    }
+
+.g-bd-reg {
+    margin-bottom: 46px;
+}
+
+    .g-bd-reg .m-reg {
+        height: 426px;
+    }
+
+    .g-bd-reg .m-ipt .abslu-1 {
+        background-position: -54px 4px;
+    }
+
+.m-ipt-wrap .u-mes-box {
+    width: 129px;
+}
+
+.m-ipt-wrap .u-message {
+    display: inline-block;
+    width: 113px;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 7px;
+    text-align: center;
+    color: #333;
+    background-color: #e5e5e5;
+    cursor: pointer;
+}

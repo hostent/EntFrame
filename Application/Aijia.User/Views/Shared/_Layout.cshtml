@@ -1,0 +1,260 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - 我的 ASP.NET 应用程序</title>
+
+    <link href="@Url.Content("~/Content/page/reset.css")" rel="stylesheet" type="text/css" />
+    <link href="@Url.Content("~/Content/page/head.css")" rel="stylesheet" type="text/css" />
+
+
+  @RenderSection("css", required: false)
+
+</head>
+<body>
+    <!-- top -->
+    <div class="header">
+        <div class="header-con">
+            <div class="h-mobile-main">
+                <div class="h-mobile">
+                    <strong class="h-mobile-picture"></strong>
+                    <strong class="h-mobile-pic"></strong>
+                    <em>移动客户端</em>
+                    <span>|</span>
+                </div>
+                <div class="h-login">
+                    <span>欢迎光临爱家网，请</span>
+                    <a href="" title="" class="h-btn-color">登录</a>
+                    <a href="" title="">免费注册</a>
+                </div>
+                <!-- 鼠标移入“移动客户端”展现出来的二维码内容的开始 -->
+                <dl class="qr-code">
+                    <dt>
+                        <img src="../../Content/images/h_mobile_cut.png" alt="" title="" class="h-mobile-cut" />
+                        <img src="../../Content/images/h_mobile_code.png" alt="" title="" class="h-mobile-code" />
+                        <a href="" title="" class="ios-picturn"><img src="../../Content/images/ios.png" alt="" title="" /></a>
+                        <a href="" title="" class="androld-picturn">
+                            <img src="../../Content/images/androld.png" alt=""
+                                 title="" />
+                        </a>
+                    </dt>
+                    <dd>
+                        <span class="qr-code-con">爱家客户端</span>
+                    </dd>
+                </dl>
+                <!-- 鼠标移入“移动客户端”展现出来的二维码内容的结束-->
+            </div>
+            <div class="h-edition">时尚版</div>
+            <div class="h-nav">
+                <a href="" title="" class="h-nav-order">
+                    <em></em>
+                    <strong>我的订单</strong>
+                    <span>|</span>
+                </a>
+                <a href="" title="" class="h-nav-cart">
+                    <em></em>
+                    <strong>购物车</strong>
+                    <span>|</span>
+                </a>
+                <a href="" title="" class="h-nav-home">
+                    <strong>我的爱家</strong>
+                    <span>|</span>
+                </a>
+                <a href="" title="" class="h-nav-home">
+                    <strong>帮助中心</strong>
+                    <span>|</span>
+                </a>
+                <a href="" title="" class="h-nav-collection">
+                    <strong>收藏本站</strong>
+                    <span>|</span>
+                </a>
+            </div>
+            <div class="h-telephone">服务热线：400-800-8888</div>
+        </div>
+    </div>
+    <!-- /top -->
+    @RenderBody()
+    <!-- 尾部开始 -->
+    <div class="footer">
+        <div class="footer-list">
+            <div class="footer-con">
+                <div class="f-guide">
+                    <a href="" title="">
+                        <img src="../../Content/images/f_guide.png" alt="购物指南" title="购物指南" />
+                        <span>购物指南</span>
+                    </a>
+                    <ul class="f-guide-list">
+                        <li><a href="" title="">会员注册</a></li>
+                        <li><a href="" title="">如何订购</a></li>
+                        <li><a href="" title="">如何支付</a></li>
+                        <li><a href="" title="">订单处理</a></li>
+                        <li><a href="" title="">配送方式</a></li>
+                    </ul>
+                </div>
+                <div class="f-service">
+                    <a href="" title="" class="f-service">
+                        <img src="../../Content/images/f_service.png" alt="商家服务" title="商家服务" />
+                        <span>商家服务</span>
+                    </a>
+                    <ul class="f-service-list">
+                        <li><a href="" title="">商家认证服务</a></li>
+                        <li><a href="" title="">宝贝发布</a></li>
+                        <li><a href="" title="">宝贝管理</a></li>
+                    </ul>
+                </div>
+                <div class="f-characteristic">
+                    <a href="" title="" class="f-characteristic">
+                        <img src="../../Content/images/f_characteristic.png" alt="爱家特色" title="爱家特色" />
+                        <span>爱家特色</span>
+                    </a>
+                    <ul class="f-characteristic-list">
+                        <li><a href="" title="">爱家优势</a></li>
+                        <li><a href="" title="">商家支持</a></li>
+                    </ul>
+                </div>
+                <dl class="f-mobile-client">
+                    <dt>
+                        <img src="../../Content/images/f_mobile_code.png" alt="移动客户端" title="移动客户端" />
+                    </dt>
+                    <dd>
+                        <span class="f-mobile-c">移动客户端</span>
+                        <span class="f-mobile-surp">扫一扫,码上有惊喜!</span>
+                    </dd>
+                </dl>
+                <dl class="f-mobile-client">
+                    <dt>
+                        <img src="../../Content/images/f_wechat.png" alt="官方微信" title="官方微信" />
+                    </dt>
+                    <dd>
+                        <span class="f-mobile-c">官方微信</span>
+                        <span class="f-mobile-surp">扫一扫,码上有惊喜!</span>
+                    </dd>
+                </dl>
+                <div class="f-brief">
+                    <p class="f-brief-color">爱家网为您提供服务</p>
+                    <p>做厦门最专业</p>
+                    <p>最具特色的建材 装修设计</p>
+                    <p>云监理服务为一体的平台</p>
+                </div>
+            </div>
+            <div class="f-friend-link">
+                <div class="f-link">
+                    <span>友情链接：</span>
+                    <a href="" title="">厦门装修网  </a>
+                    <a href="" title="">佛山房产  </a>
+                    <a href="" title="">哈尔滨房产  </a>
+                    <a href="" title="">厦门婚纱摄影  </a>
+                    <a href="" title="">图片链接  </a>
+                    <a href="" title="">酒店建筑设计  </a>
+                    <a href="" title="">厦门装修网  </a>
+                    <a href="" title="">厦门装修  </a>
+                    <a href="" title="">厦门房产  </a>
+                    <a href="" title="">厦门家具  </a>
+                    <a href="" title="">福州楼盘  </a>
+                    <a href="" title="">温州二手房  </a>
+                    <a href="" title="">酒店建筑设计  </a>
+                    <a href="" title="">厦门装修网  </a>
+                    <a href="" title="">厦门装修  </a>
+                    <a href="" title="">厦门房产  </a>
+                    <a href="" title="">厦门家具  </a>
+                    <a href="" title="">福州楼盘  </a>
+                    <a href="" title="">温州二手房  </a>
+                    <a href="" title="">酒店建筑设计  </a>
+                    <a href="" title="">厦门装修网  </a>
+                    <a href="" title="">厦门装修  </a>
+                    <a href="" title="">厦门房产  </a>
+                    <a href="" title="">厦门装修网  </a>
+                    <a href="" title="">佛山房产  </a>
+                    <a href="" title="">哈尔滨房产  </a>
+                    <a href="" title="">厦门婚纱摄影  </a>
+                    <a href="" title="">图片链接  </a>
+                    <a href="" title="">酒店建筑设计  </a>
+                    <a href="" title="">厦门装修网  </a>
+                    <a href="" title="">厦门装修  </a>
+                    <a href="" title="">厦门房产  </a>
+                    <a href="" title="">厦门家具  </a>
+                    <a href="" title="">福州楼盘  </a>
+                    <a href="" title="">温州二手房  </a>
+                    <a href="" title="">酒店建筑设计  </a>
+                    <a href="" title="">厦门装修网  </a>
+                    <a href="" title="">厦门装修  </a>
+                    <a href="" title="">厦门房产  </a>
+                    <a href="" title="">厦门家具  </a>
+                    <a href="" title="">福州楼盘  </a>
+                    <a href="" title="">温州二手房  </a>
+                    <a href="" title="">酒店建筑设计  </a>
+                    <a href="" title="">厦门装修网  </a>
+                    <a href="" title="">厦门装修  </a>
+                    <a href="" title="">厦门房产  </a>
+                </div>
+                <div class="f-link-more">
+                    <span id="footerLinkdown">更多↓</span>
+                    <span class="f-link-show" id="footerLinkUp">收起↑</span>
+                </div>
+            </div>
+            <ul class="f-about-us clearfix">
+                <li>
+                    <a href="" title="">关于我们</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="" title="">联系我们</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="" title="">法律声明</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="" title="">加盟爱家</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="" title="">入驻爱家</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="" title="">诚聘英才</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="" title="">网站地图</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="" title="">手机爱家</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="" title="">爱家钱包</a>
+                    <span>|</span>
+                </li>
+                <li>
+                    <a href="" title="">帮助中心</a>
+                </li>
+            </ul>
+            <div class="f-website">
+                <span>爱家网</span>
+                <span>版权所有</span>
+                <span>Copyright © 2015-2020</span>
+                <span>www.0592aijia.com</span>
+                <span>All rights reserved</span>
+            </div>
+            <div class="f-code">
+                <span>闽ICP备1500****号</span>
+                <span>闽D2-201512202</span>
+                <span>组织机构代码证：88888888—1</span>
+            </div>
+            <div class="f-zip-code">
+                <span>中国互联网协会信用评价中心网信认证</span>
+                <span>网信编码:888888888</span>
+            </div>
+        </div>
+    </div>
+    <!-- 尾部结束 -->
+
+    @RenderSection("script", required: false)
+</body>
+</html>

@@ -1,0 +1,8 @@
+F:\svncode\399\trunk\Fitment\Ent.Model\bin\Debug\Ent.Model.XML
+F:\svncode\399\trunk\Fitment\Ent.Model\bin\Debug\Ent.Model.dll
+F:\svncode\399\trunk\Fitment\Ent.Model\bin\Debug\Ent.Model.pdb
+F:\svncode\399\trunk\Fitment\Ent.Model\bin\Debug\Newtonsoft.Json.dll
+F:\svncode\399\trunk\Fitment\Ent.Model\bin\Debug\Newtonsoft.Json.xml
+F:\svncode\399\trunk\Fitment\Ent.Model\obj\Debug\Ent.Model.dll
+F:\svncode\399\trunk\Fitment\Ent.Model\obj\Debug\Ent.Model.pdb
+F:\svncode\399\trunk\Fitment\Ent.Model\obj\Debug\Ent.Model.csprojResolveAssemblyReference.cache

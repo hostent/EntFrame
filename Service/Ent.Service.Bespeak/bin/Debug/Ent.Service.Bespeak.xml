@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ent.Service.Bespeak</name>
+    </assembly>
+    <members>
+        <member name="P:Ent.Service.Bespeak._Db.MongoDb">
+            <summary>
+            预约模块，数据仓储
+            </summary>
+        </member>
+    </members>
+</doc>

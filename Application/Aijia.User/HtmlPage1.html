@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+
+    <script src="Scripts/jquery-1.11.1.js"></script>
+
+    <script src="Scripts/MyValid.js"></script>
+    <script src="Scripts/String.js"></script>
+</head>
+<body>
+    <div id="commentForm">
+
+        <div id="showerrot"></div>
+
+        <input type="text" name="useName" placeholder="请输入手机号" gvalid="require('电话号码')|len('电话号码',10,20)" />
+
+        <input type="text" name="useName" placeholder="请输入名字" gvalid="len('名字',5,20)|ajaxCheckName('user/hasName')" />
+
+        <input type="button" value="ddd" id="testID" />
+
+
+    </div>
+
+    <script>
+
+        var gvalid = $("#commentForm").gvalid(
+            {
+                onValided: function (errorList) {
+
+                    $("#showerrot").html("");
+
+                    if (errorList.length > 0)
+                    {
+                        $("#showerrot").html(errorList[0].msg);                        
+                    }
+                   
+                   
+                     
+                }
+
+            });
+
+
+
+        $("#testID").click(function () {
+
+            gvalid.valid();
+
+
+        });
+
+    </script>
+</body>
+</html>

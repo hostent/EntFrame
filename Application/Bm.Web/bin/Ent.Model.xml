@@ -1,0 +1,233 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ent.Model</name>
+    </assembly>
+    <members>
+        <member name="T:Ent.Model.Colection.U_User">
+            <summary>
+            用户
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Colection.U_User.PhoneNum">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Colection.U_User.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Colection.U_User.NickName">
+            <summary>
+            昵称
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Colection.U_User.LoginEnable">
+            <summary>
+            是否能登陆
+            </summary>
+        </member>
+        <member name="T:Ent.Model.Entity.Context.UserContext">
+            <summary>
+            客户当前上下文对象
+            </summary>
+        </member>
+        <member name="T:Ent.Model.Entity.BaseMessageModel">
+            <summary>
+            消息模型基类
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Entity.BaseMessageModel.CustomerID">
+            <summary>
+            客户ID
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Entity.BaseMessageModel.ReceiverMoblie">
+            <summary>
+            接收人手机号
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Entity.BaseMessageModel.ReceiverEmail">
+            <summary>
+            接收人邮箱
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Entity.BaseMessageModel.RelatedID">
+            <summary>
+            关联ID，业务表主键
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Entity.BaseMessageModel.BatchNumber">
+             <summary>
+            发送批号
+             </summary>
+        </member>
+        <member name="P:Ent.Model.Entity.BaseMessageModel.MessageContent">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Entity.BaseMessageModel.MessageType">
+            <summary>
+            消息类型
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Entity.BaseMessageModel.MessageTitle">
+            <summary>
+            标题
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Entity.BaseMessageModel.BussinessType">
+            <summary>
+            消息业务类型
+            </summary>
+        </member>
+        <member name="T:Ent.Model.Entity.SendResult">
+            <summary>
+            消息发送
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Entity.SendResult.State">
+            <summary>
+            发送状态
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Entity.SendResult.FailReason">
+            <summary>
+            失败原因
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Entity.SendResult.Respone">
+            <summary>
+            响应内容
+            </summary>
+        </member>
+        <member name="T:Ent.Model.Entity.SendState">
+            <summary>
+            消息发送状态
+            </summary>
+        </member>
+        <member name="F:Ent.Model.Entity.SendState.UnSend">
+            <summary>
+            未发送
+            </summary>
+        </member>
+        <member name="F:Ent.Model.Entity.SendState.Sending">
+            <summary>
+            发送中
+            </summary>
+        </member>
+        <member name="F:Ent.Model.Entity.SendState.SendSuccess">
+            <summary>
+            发送成功
+            </summary>
+        </member>
+        <member name="F:Ent.Model.Entity.SendState.SendFail">
+            <summary>
+            发送失败
+            </summary>
+        </member>
+        <member name="M:Ent.Model.Service.User.IReg.CreateValidCode(System.String)">
+            <summary>
+            创建图像验证码
+            </summary>
+            <param name="phoneNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ent.Model.Service.User.IReg.CreateValidSms(System.String)">
+            <summary>
+            生成短信验证码
+            </summary>
+            <param name="phoneNum"></param>
+        </member>
+        <member name="M:Ent.Model.Service.User.IReg.HasRegedit(System.String)">
+            <summary>
+            检查是否有注册
+            </summary>
+            <param name="phoneNum"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Ent.Model.Service.User.IReg.Regedit(System.String,System.String)">
+            <summary>
+            注册
+            </summary>
+            <param name="phoneNum"></param>
+            <param name="psw"></param>
+            <returns></returns>
+        </member>
+        <member name="P:Ent.Model.Table.U_User.PhoneNum">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Table.U_User.Password">
+            <summary>
+            密码
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Table.U_User.NickName">
+            <summary>
+            昵称
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Table.U_User.LoginEnable">
+            <summary>
+            是否能登陆
+            </summary>
+        </member>
+        <member name="F:Ent.Model.Untility.DataPage`1.pageIndex">
+            <summary>
+            页数(从1开始)
+            </summary>
+        </member>
+        <member name="F:Ent.Model.Untility.DataPage`1.pageSize">
+            <summary>
+            分页大小
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Untility.DataPage`1.PageIndex">
+            <summary>
+            页数(从1开始)
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Untility.DataPage`1.PageSize">
+            <summary>
+            分页大小
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Untility.DataPage`1.TotalCounts">
+            <summary>
+            总记录数
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Untility.DataPage`1.CurrentPage">
+            <summary>
+            当前页数据
+            </summary>
+        </member>
+        <member name="M:Ent.Model.Untility.Result.IsSucceed">
+            <summary>
+            获取执行结果是否成功
+            </summary>
+            <returns>成功返回true，否则返回false</returns>
+        </member>
+        <member name="M:Ent.Model.Untility.Result.IsFailure">
+            <summary>
+            获取执行结果是否失败
+            </summary>
+            <returns>失败返回true，否则返回false</returns>
+        </member>
+        <member name="P:Ent.Model.Untility.Result.Tag">
+            <summary>
+            1 表示成功
+            </summary>
+        </member>
+        <member name="P:Ent.Model.Untility.Result.RedirectUrl">
+            <summary>
+            跳转地址
+            </summary>
+        </member>
+    </members>
+</doc>

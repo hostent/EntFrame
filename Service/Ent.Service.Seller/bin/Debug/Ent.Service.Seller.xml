@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ent.Service.Seller</name>
+    </assembly>
+    <members>
+        <member name="P:Ent.Service.Seller._Db.MongoDb">
+            <summary>
+            商家模块，数据仓储
+            </summary>
+        </member>
+    </members>
+</doc>

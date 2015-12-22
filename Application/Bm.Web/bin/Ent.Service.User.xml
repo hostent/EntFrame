@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ent.Service.User</name>
+    </assembly>
+    <members>
+        <member name="P:Ent.Service.User._Db.MongoDb">
+            <summary>
+            用户模块，数据仓储,Mongo
+            </summary>
+        </member>
+        <member name="P:Ent.Service.User._Db.SqlDb">
+            <summary>
+            用户模块，数据仓储 ,sql
+            </summary>
+        </member>
+    </members>
+</doc>
